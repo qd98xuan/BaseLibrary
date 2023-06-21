@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.hx.baselibrary"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -45,4 +45,6 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     // retrofit-gson
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    // logger
+    implementation 'com.orhanobut:logger:2.2.0'
 }

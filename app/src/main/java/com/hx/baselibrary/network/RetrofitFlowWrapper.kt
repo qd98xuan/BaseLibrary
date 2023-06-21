@@ -41,7 +41,7 @@ class RetrofitFlowWrapper private constructor() {
             if (response.isSuccessful) {
                 val body = response.body()
                 if (body?.code == 200) {
-                    emit(Result.Success(body?.data))
+                    emit(Result.Success(body.data))
                 } else {
                     emit(Result.Error(body?.message ?: ""))
                 }
