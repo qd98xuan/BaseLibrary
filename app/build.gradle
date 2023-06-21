@@ -49,4 +49,14 @@ dependencies {
     implementation "com.orhanobut:logger:$dep.logger"
     // mmkv存储
     implementation "com.tencent:mmkv-static:$dep.mmkv"
+    // permissionx
+    implementation "com.guolindev.permissionx:permissionx:$dep.permissionx"
+    // utilcodex
+    implementation "com.blankj:utilcodex:$dep.utilcodex"
+    // ldialog
+    implementation "com.github.liys666666:LDialog:$dep.ldialog"
+    // glide
+    implementation "com.github.bumptech.glide:glide:$dep.glide"
+    // superadapter
+    implementation "org.byteam.superadapter:superadapter:$dep.superadapter"
 }

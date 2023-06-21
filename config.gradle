@@ -1,7 +1,12 @@
 ext {
     dep = [
-            retrofit: '2.9.0',
-            logger  : '2.2.0',
-            mmkv    : '1.3.0'
+            retrofit    : '2.9.0',
+            logger      : '2.2.0',
+            mmkv        : '1.3.0',
+            permissionx : '1.7.1',
+            utilcodex   : '1.31.1',
+            ldialog     : 'V2.1.2',
+            glide       : '4.15.1',
+            superadapter: '3.6.8'
     ]
 }
